@@ -1,10 +1,12 @@
 var p5 = require("p5");
 
+/*
 const allFiles = (ctx => {
     let keys = ctx.keys();
     let values = keys.map(ctx);
-    return keys.reduce((o, k, i) => { o[k] = values[i]; return o; }, {});
-})(require.context('./images', true, /.*/));
+    return keys.reduce((o, k, i) => { o[k] = values[i]; return o; }, {}); */
+// })(require.context('./images', true, /.*/));
+
 
 require("./css/style.css");
 require("./index.html");
@@ -235,7 +237,6 @@ function printActives(){
 
 var s = function( p ) {
 	p.preload = function(){
-    /*
 		var text = readTextFile("./images/");
     console.log(text);
     var parser = new DOMParser();
@@ -248,7 +249,8 @@ var s = function( p ) {
         conf.players.push({name: name.replace(/\..+$/, ''), image: p.loadImage("./images/"+name)});
         conf.scores[name.replace(/\..+$/, '')] = 0;
       }
-    } */
+    }
+    /*
     for(var key in allFiles){
       if(allFiles.hasOwnProperty(key)){
         var value = allFiles[key];
@@ -257,6 +259,7 @@ var s = function( p ) {
         conf.scores[name] = 0;
       }
     }
+    */
 	};
 
   p.setup = function() {

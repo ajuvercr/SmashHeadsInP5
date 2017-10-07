@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config-name webpack.config.js"
+    "build": "webpack --config-name webpack.config.js",
+    "make": "mkdir dist/images; cp src/images/* dist/images"
   },
   "keywords": [],
   "author": "",
