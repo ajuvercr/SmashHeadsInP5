@@ -22,9 +22,9 @@ return function() {
 
 var buzzy = true;
 
-var background_color = "#535e54";
-var pipe_color = "#0a6d0d";
-var pipe_inside = "#002301";
+var background_color = "#616b7a";
+var pipe_color = "#363aaa";
+var pipe_inside = "#12143d";
 
 var p;
 
