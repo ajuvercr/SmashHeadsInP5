@@ -1,0 +1,17 @@
+#game{
+  background-color: "#687c69";
+  width: 80vw;
+  height: auto;
+  margin: 0 auto;
+}
+
+#score {
+  display:table;
+  margin:0 auto;
+  padding: 20px;
+}
+#score li {
+  display:table-cell;
+  padding: 0px 10px;
+  font-size: 20;
+}

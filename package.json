@@ -1,0 +1,19 @@
+{
+  "name": "webpack-demoe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "file-loader": "^1.1.5",
+    "p5": "^0.5.14"
+  }
+}
